@@ -1,0 +1,15 @@
+python-nmap==0.7.1
+scapy==2.5.0
+requests==2.31.0
+tkinter
+threading
+socket
+subprocess
+json
+os
+sys
+datetime
+queue
+time
+platform
+getpass
