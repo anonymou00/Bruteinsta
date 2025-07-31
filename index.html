@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XenForo Forum - Ana Sayfa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <h1><i class="fas fa-comments"></i> XenForo Forum</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active">Ana Sayfa</a></li>
+                    <li><a href="#forums">Forumlar</a></li>
+                    <li><a href="#members">Üyeler</a></li>
+                    <li><a href="#help">Yardım</a></li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <div class="search-box">
+                    <input type="text" placeholder="Forum ara...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="user-actions">
+                    <a href="#" class="btn btn-primary">Giriş Yap</a>
+                    <a href="#" class="btn btn-secondary">Kayıt Ol</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Welcome Section -->
+            <section class="welcome-section">
+                <div class="welcome-card">
+                    <h2>XenForo Forumuna Hoş Geldiniz!</h2>
+                    <p>Topluluğumuza katılın ve diğer üyelerle sohbet edin, sorular sorun ve bilgi paylaşın.</p>
+                    <div class="welcome-stats">
+                        <div class="stat">
+                            <span class="stat-number">1,234</span>
+                            <span class="stat-label">Üye</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5,678</span>
+                            <span class="stat-label">Konu</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">12,345</span>
+                            <span class="stat-label">Mesaj</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Forums Section -->
+            <section class="forums-section" id="forums">
+                <h2 class="section-title">Forum Kategorileri</h2>
+                
+                <!-- Main Category -->
+                <div class="forum-category">
+                    <div class="category-header">
+                        <h3><i class="fas fa-home"></i> Ana Kategori</h3>
+                    </div>
+                    
+                    <div class="forum-list">
+                        <div class="forum-item">
+                            <div class="forum-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="forum-info">
+                                <h4><a href="#">Genel Sohbet</a></h4>
+                                <p>Her türlü konuda sohbet edebileceğiniz genel forum alanı.</p>
+                                <div class="forum-meta">
+                                    <span><i class="fas fa-comment"></i> 1,234 konu</span>
+                                    <span><i class="fas fa-reply"></i> 5,678 mesaj</span>
+                                </div>
+                            </div>
+                            <div class="forum-latest">
+                                <div class="latest-post">
+                                    <span class="post-title">Son konu: Hoş geldiniz!</span>
+                                    <span class="post-author">by Admin</span>
+                                    <span class="post-time">2 saat önce</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="forum-item">
+                            <div class="forum-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div class="forum-info">
+                                <h4><a href="#">Yardım & Destek</a></h4>
+                                <p>Teknik sorunlar ve yardım istekleri için forum alanı.</p>
+                                <div class="forum-meta">
+                                    <span><i class="fas fa-comment"></i> 567 konu</span>
+                                    <span><i class="fas fa-reply"></i> 2,345 mesaj</span>
+                                </div>
+                            </div>
+                            <div class="forum-latest">
+                                <div class="latest-post">
+                                    <span class="post-title">Son konu: Nasıl kayıt olurum?</span>
+                                    <span class="post-author">by YeniÜye</span>
+                                    <span class="post-time">1 gün önce</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="forum-item">
+                            <div class="forum-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <div class="forum-info">
+                                <h4><a href="#">Oyun & Eğlence</a></h4>
+                                <p>Oyunlar, eğlence ve hobiler hakkında konuşun.</p>
+                                <div class="forum-meta">
+                                    <span><i class="fas fa-comment"></i> 890 konu</span>
+                                    <span><i class="fas fa-reply"></i> 3,456 mesaj</span>
+                                </div>
+                            </div>
+                            <div class="forum-latest">
+                                <div class="latest-post">
+                                    <span class="post-title">Son konu: En sevdiğiniz oyun?</span>
+                                    <span class="post-author">by Oyuncu</span>
+                                    <span class="post-time">3 saat önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technical Category -->
+                <div class="forum-category">
+                    <div class="category-header">
+                        <h3><i class="fas fa-cogs"></i> Teknik Kategori</h3>
+                    </div>
+                    
+                    <div class="forum-list">
+                        <div class="forum-item">
+                            <div class="forum-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="forum-info">
+                                <h4><a href="#">Programlama</a></h4>
+                                <p>Programlama dilleri ve yazılım geliştirme hakkında tartışmalar.</p>
+                                <div class="forum-meta">
+                                    <span><i class="fas fa-comment"></i> 456 konu</span>
+                                    <span><i class="fas fa-reply"></i> 1,789 mesaj</span>
+                                </div>
+                            </div>
+                            <div class="forum-latest">
+                                <div class="latest-post">
+                                    <span class="post-title">Son konu: Python öğrenmek</span>
+                                    <span class="post-author">by Coder</span>
+                                    <span class="post-time">5 saat önce</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="forum-item">
+                            <div class="forum-icon">
+                                <i class="fas fa-desktop"></i>
+                            </div>
+                            <div class="forum-info">
+                                <h4><a href="#">Donanım</a></h4>
+                                <p>Bilgisayar donanımı ve teknoloji ürünleri hakkında.</p>
+                                <div class="forum-meta">
+                                    <span><i class="fas fa-comment"></i> 234 konu</span>
+                                    <span><i class="fas fa-reply"></i> 987 mesaj</span>
+                                </div>
+                            </div>
+                            <div class="forum-latest">
+                                <div class="latest-post">
+                                    <span class="post-title">Son konu: Yeni GPU önerileri</span>
+                                    <span class="post-author">by TechGuy</span>
+                                    <span class="post-time">1 gün önce</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Topics -->
+            <section class="recent-topics">
+                <h2 class="section-title">Son Konular</h2>
+                <div class="topics-list">
+                    <div class="topic-item">
+                        <div class="topic-icon">
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <div class="topic-info">
+                            <h4><a href="#">Hoş geldiniz! Yeni üyeler için rehber</a></h4>
+                            <div class="topic-meta">
+                                <span class="topic-author">by Admin</span>
+                                <span class="topic-time">2 saat önce</span>
+                                <span class="topic-forum">Genel Sohbet</span>
+                            </div>
+                        </div>
+                        <div class="topic-stats">
+                            <span class="replies">15 yanıt</span>
+                            <span class="views">234 görüntüleme</span>
+                        </div>
+                    </div>
+
+                    <div class="topic-item">
+                        <div class="topic-icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="topic-info">
+                            <h4><a href="#">En sevdiğiniz oyun hangisi?</a></h4>
+                            <div class="topic-meta">
+                                <span class="topic-author">by Oyuncu</span>
+                                <span class="topic-time">3 saat önce</span>
+                                <span class="topic-forum">Oyun & Eğlence</span>
+                            </div>
+                        </div>
+                        <div class="topic-stats">
+                            <span class="replies">45 yanıt</span>
+                            <span class="views">567 görüntüleme</span>
+                        </div>
+                    </div>
+
+                    <div class="topic-item">
+                        <div class="topic-icon">
+                            <i class="fas fa-question"></i>
+                        </div>
+                        <div class="topic-info">
+                            <h4><a href="#">Python öğrenmeye nasıl başlarım?</a></h4>
+                            <div class="topic-meta">
+                                <span class="topic-author">by Coder</span>
+                                <span class="topic-time">5 saat önce</span>
+                                <span class="topic-forum">Programlama</span>
+                            </div>
+                        </div>
+                        <div class="topic-stats">
+                            <span class="replies">8 yanıt</span>
+                            <span class="views">123 görüntüleme</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Members Section -->
+            <section class="members-section" id="members">
+                <h2 class="section-title">Aktif Üyeler</h2>
+                <div class="members-grid">
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="member-info">
+                            <h4>Admin</h4>
+                            <span class="member-role admin">Yönetici</span>
+                            <span class="member-posts">1,234 mesaj</span>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="member-info">
+                            <h4>Moderator</h4>
+                            <span class="member-role moderator">Moderatör</span>
+                            <span class="member-posts">567 mesaj</span>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="member-info">
+                            <h4>Oyuncu</h4>
+                            <span class="member-role member">Üye</span>
+                            <span class="member-posts">234 mesaj</span>
+                        </div>
+                    </div>
+
+                    <div class="member-card">
+                        <div class="member-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="member-info">
+                            <h4>Coder</h4>
+                            <span class="member-role member">Üye</span>
+                            <span class="member-posts">89 mesaj</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>XenForo Forum</h3>
+                    <p>Topluluğumuzda hoş geldiniz. Güvenli ve keyifli bir forum deneyimi için buradayız.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#forums">Forumlar</a></li>
+                        <li><a href="#members">Üyeler</a></li>
+                        <li><a href="#help">Yardım</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>İletişim</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@xenforo.com</li>
+                        <li><i class="fas fa-phone"></i> +90 555 123 4567</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 XenForo Forum. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
